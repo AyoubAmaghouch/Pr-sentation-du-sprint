@@ -1,7 +1,7 @@
 Nom,Signification,Type,Taille,Obligatoire,Calculee
 titre,Titre de l'article,Texte,255,Oui,Non
 extrait,Resume court affiche sous le titre dans les listes d'articles,Texte,500,Oui,Non
-contenu,Contenu complet de l'article (texte, images, citations),Texte,,Oui,Non
+contenu,"Contenu complet de l'article (texte, images, citations)",Texte,,Oui,Non
 image_couverture,Image de couverture de l'article,Fichier,,Oui,Non
 date_publication,Date de publication de l'article,Date,,Oui,Non
 duree_lecture,Temps de lecture estime,Nombre,,Non,Oui
