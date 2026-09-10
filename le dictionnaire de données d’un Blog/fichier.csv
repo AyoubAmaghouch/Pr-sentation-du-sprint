@@ -1,4 +1,3 @@
-```csv
 interface,nome,Signification,Type,Obligatoire,Calculee
 category,nom_catégorie,Nom de la catégorie,VARCHAR,OUI,NO
 category,couler,Couleur associée à la catégorie,VARCHAR,OUI,NO
@@ -14,4 +13,3 @@ article,image,Image principale de l'article,VARCHAR / URL,NO,NO
 article,contenu,Contenu complet de l'article,TEXT,OUI,NO
 article,date creation,Date de création de l'article,DATE TIME,OUI,NO
 article,le temps de lecture de article,Durée estimée nécessaire pour lire l'article,INT,OUI,OUI
-```
