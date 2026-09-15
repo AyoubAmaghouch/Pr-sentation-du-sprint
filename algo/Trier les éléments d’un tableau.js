@@ -1,14 +1,19 @@
-const tab = [23, 2, 19, 1, 44, 7]
-let num
+let array_1=[1,4,2,5,2,8];
+let array_2=[7,4,5,5,1,10];
 
-for (let i = 0; i < tab.length; i++) {
-    for (let j = 0; j < tab.length - 1; j++) {
-        if (tab[j] > tab[j + 1]) {
-            num = tab[j]
-            tab[j] = tab[j + 1]
-            tab[j + 1] = num
+function tri(array){
+    for(i=0;i<array.length;i++){
+
+        for(j=i+1;j<array.length;j++){
+            if(array[j]<array[i]){
+               let temp=array[i];
+                array[i]=array[j];
+                array[j]=temp;
+            }
+            
         }
     }
+    return array;
 }
 
-console.log(tab)
+console.log(tri(array_2));
