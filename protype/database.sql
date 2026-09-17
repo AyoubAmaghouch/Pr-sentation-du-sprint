@@ -29,3 +29,20 @@ CREATE TABLE vehicle (
     FOREIGN KEY (id_vehicle_type)
         REFERENCES vehicle_type(id_vehicle_type)
 );
+
+
+INSERT INTO vehicle_type (libelle)
+VALUES
+('Berline'),
+('SUV'),
+('Citadine'),
+('Coupé'),
+('Utilitaire');
+
+
+
+INSERT INTO dealer (nom, adresse, ville, telephone, email)
+VALUES
+('Auto Maroc', '10 Avenue Mohammed V', 'Tanger', '0612345678', 'contact@automaroc.ma'),
+('Luxury Cars', '25 Route de Rabat', 'Tanger', '0623456789', 'contact@luxurycars.ma'),
+('Cars Center', '15 Rue Ibn Sina', 'Casablanca', '0634567890', 'contact@carscenter.ma');
