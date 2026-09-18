@@ -1,7 +1,5 @@
 <?php
-
 require_once "dbconfig.php";
-
 $sql = "
     SELECT 
         vehicle.id_vehicle,
@@ -19,9 +17,7 @@ $sql = "
 
 $stmt = $pdo->query($sql);
 $vehicles = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,9 +26,7 @@ $vehicles = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <h1>Gestion des véhicules</h1>
-
     <a href="ajouter.php">+ Ajouter une nouvelle voiture</a>
 
     <br><br>
@@ -49,7 +43,6 @@ $vehicles = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </thead>
 
         <tbody>
-
             <?php foreach ($vehicles as $vehicle): ?>
 
                 <tr>
