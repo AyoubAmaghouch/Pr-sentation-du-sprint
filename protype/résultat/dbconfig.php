@@ -3,7 +3,7 @@
 $host = "localhost";
 $dbname = "automotive_marketplace";
 $username = "root";
-$password = "Kingfb12";
+$password = "";
 
 try {
     $pdo = new PDO(
