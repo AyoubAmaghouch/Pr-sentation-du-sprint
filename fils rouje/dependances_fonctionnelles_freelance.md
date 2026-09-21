@@ -83,6 +83,3 @@ Donc :
 | CATEGORIE_SERVICE | `id_categorie → nom, description` |
 | COMMANDE | `id_commande → date_commande, statut, prix_total, id_service` |
 
-## Remarque
-
-Les dépendances fonctionnelles sont basées sur le MCD défini pour le projet Freelance. Les clés étrangères (`id_freelance`, `id_categorie`, `id_service`) servent à représenter les relations entre les tables ; elles ne déterminent pas, à elles seules, les autres attributs de leur table.
