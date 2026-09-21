@@ -10,7 +10,7 @@ require_once __DIR__ . '/config.php';
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'freelance');
 define('DB_USER', 'root');       // Modifier si nécessaire
-define('DB_PASS', '');           // Modifier si nécessaire
+define('DB_PASS', 'Kingfb12');           // Modifier si nécessaire
 define('DB_CHARSET', 'utf8mb4');
 
 function getDB(): PDO {
